@@ -34,3 +34,16 @@ build:
         code: |
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
+
+# Take our tested application revision and its dependencies, bake it in to a
+    # Docker image, and push to GCR.
+    - internal/docker-push:
+        entrypoint: bin/get_ip
+        cmd: 0.0.0.0 8080
+        working-dir: $WERCKER_ROOT
+        tag: $WERCKER_GIT_COMMIT
+        ports: "8080"
+        username: _json_key
+        password: $GCP_KEY_JSON
+        repository: $GCR_TAG
+        registry: $GCR_HOST/v2
