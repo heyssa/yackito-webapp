@@ -1,7 +1,7 @@
 # yackito-webapp
 
 [![Stories in Ready](https://badge.waffle.io/heyssa/yackito-webapp.png?label=ready&title=Ready)](http://waffle.io/heyssa/yackito-webapp)
-
+[![wercker status](https://app.wercker.com/status/facffc441f2ccc2b6495350f33142744/s/master "wercker status")](https://app.wercker.com/project/byKey/facffc441f2ccc2b6495350f33142744)
 
 This is a sample Grommet application for reference.
 
