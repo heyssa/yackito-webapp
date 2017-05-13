@@ -1,5 +1,8 @@
 # yackito-webapp
 
+[![Stories in Ready](https://badge.waffle.io/heyssa/yackito-webapp.png?label=ready&title=Ready)](http://waffle.io/heyssa/yackito-webapp)
+
+
 This is a sample Grommet application for reference.
 
 To run this application, execute the following commands:
