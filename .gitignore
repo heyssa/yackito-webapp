@@ -125,3 +125,17 @@ typings/
 
 
 # End of https://www.gitignore.io/api/node,intellij
+
+
+__test__
+__test__/*
+
+dist
+dist/*
+
+dist-server
+dist-server/*
+
+node_modules
+node_modules/*
+
