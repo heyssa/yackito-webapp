@@ -1,7 +1,7 @@
 import {
   SESSION_LOAD, SESSION_LOGIN, SESSION_LOGOUT
-} from '../actions';
-import { createReducer } from './utils';
+} from '../../constants/action.constants';
+import { createReducer } from '../../reducers/utils';
 
 const initialState = {};
 

@@ -15,13 +15,13 @@ import Value from 'grommet/components/Value';
 import Spinning from 'grommet/components/icons/Spinning';
 import { getMessage } from 'grommet/utils/Intl';
 
-import NavControl from '../components/NavControl';
+import NavControl from '../../components/NavControl';
 
 import {
   loadTasks, unloadTasks
-} from '../actions/tasks';
+} from './tasks.actions';
 
-import { pageLoaded } from './utils';
+import { pageLoaded } from '../utils';
 
 class Tasks extends Component {
 

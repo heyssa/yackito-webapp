@@ -1,6 +1,6 @@
-import { SESSION_LOAD, SESSION_LOGIN, SESSION_LOGOUT } from '../actions';
-import { deleteSession, postSession } from '../api/session';
-import { updateHeaders } from '../api/utils';
+import { SESSION_LOAD, SESSION_LOGIN, SESSION_LOGOUT } from '../../constants/action.constants';
+import { deleteSession, postSession } from '../../api/session';
+import { updateHeaders } from '../../api/utils';
 
 const localStorage = window.localStorage;
 

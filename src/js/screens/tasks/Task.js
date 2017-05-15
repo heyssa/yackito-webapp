@@ -15,9 +15,9 @@ import LinkPrevious from 'grommet/components/icons/base/LinkPrevious';
 
 import {
   loadTask, unloadTask
-} from '../actions/tasks';
+} from './tasks.actions';
 
-import { pageLoaded } from './utils';
+import { pageLoaded } from '../utils';
 
 class Task extends Component {
 

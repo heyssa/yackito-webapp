@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
-import dashboard from './dashboard';
+import dashboard from '../screens/dashboard/dashboard.reducer';
 import nav from './nav';
-import session from './session';
-import tasks from './tasks';
+import session from '../screens/login/session.reducer';
+import tasks from '../screens/tasks/tasks.reducer';
 
 export default combineReducers({
   dashboard,

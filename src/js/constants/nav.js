@@ -1,6 +1,6 @@
 import {
   NAV_ACTIVATE, NAV_ENABLE, NAV_RESPONSIVE
-} from '../actions';
+} from './';
 
 export function navActivate(active) {
   return { type: NAV_ACTIVATE, active };

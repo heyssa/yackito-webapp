@@ -6,7 +6,7 @@ import Headline from 'grommet/components/Headline';
 import Heading from 'grommet/components/Heading';
 import Paragraph from 'grommet/components/Paragraph';
 
-import { navEnable } from '../actions/nav';
+import { navEnable } from '../constants/nav';
 import { pageLoaded } from './utils';
 
 class NotFound extends Component {

@@ -6,12 +6,12 @@ import App from 'grommet/components/App';
 import Split from 'grommet/components/Split';
 
 import NavSidebar from './NavSidebar';
-import { navResponsive } from '../actions/nav';
+import { navResponsive } from '../constants/nav';
 
-import Login from '../screens/Login';
-import Dashboard from '../screens/Dashboard';
-import Tasks from '../screens/Tasks';
-import Task from '../screens/Task';
+import Login from '../screens/login/Login';
+import Dashboard from '../screens/dashboard/Dashboard';
+import Tasks from '../screens/tasks/Tasks';
+import Task from '../screens/tasks/Task';
 import NotFound from '../screens/NotFound';
 
 class Main extends Component {

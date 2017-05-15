@@ -1,7 +1,7 @@
-import { TASKS_LOAD, TASKS_UNLOAD, TASK_LOAD, TASK_UNLOAD } from '../actions';
+import { TASKS_LOAD, TASKS_UNLOAD, TASK_LOAD, TASK_UNLOAD } from '../../constants/action.constants';
 import {
   watchTasks, unwatchTasks, watchTask, unwatchTask
-} from '../api/tasks';
+} from '../../api/tasks';
 
 export function loadTasks() {
   return dispatch => (

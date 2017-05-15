@@ -1,5 +1,5 @@
-import { DASHBOARD_LOAD, DASHBOARD_UNLOAD } from '../actions';
-import { watchDashboard, unwatchDashboard } from '../api/dashboard';
+import { DASHBOARD_LOAD, DASHBOARD_UNLOAD } from '../../constants/action.constants';
+import { watchDashboard, unwatchDashboard } from '../../api/dashboard';
 
 export function loadDashboard() {
   return dispatch => (

@@ -2,7 +2,7 @@
 
 import {
   NAV_ACTIVATE, NAV_ENABLE, NAV_RESPONSIVE
-} from '../actions';
+} from '../constants/action.constants';
 
 import { createReducer } from './utils';
 

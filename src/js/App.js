@@ -3,7 +3,7 @@ import { IntlProvider, addLocaleData } from 'react-intl';
 import en from 'react-intl/locale-data/en';
 import { getCurrentLocale, getLocaleData } from 'grommet/utils/Locale';
 import { Provider } from 'react-redux';
-import { initialize } from './actions/session';
+import { initialize } from './screens/login/session.actions';
 import store from './store';
 import Main from './components/Main';
 

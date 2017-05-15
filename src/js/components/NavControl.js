@@ -8,7 +8,7 @@ import Button from 'grommet/components/Button';
 import Title from 'grommet/components/Title';
 import Logo from 'grommet/components/icons/Grommet';
 
-import { navActivate } from '../actions/nav';
+import { navActivate } from '../constants/nav';
 
 class NavControl extends Component {
   render() {

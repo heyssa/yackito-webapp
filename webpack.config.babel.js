@@ -56,7 +56,7 @@ if (env === 'production') {
   devConfig.devtool = 'cheap-module-source-map';
   devConfig.entry = [
     require.resolve('react-dev-utils/webpackHotDevClient'),
-    './src/js/index.js'
+    './src/js/action.constants.js'
   ];
   devConfig.devServer = {
     compress: true,
@@ -78,7 +78,7 @@ if (env === 'production') {
 plugins.push(new webpack.LoaderOptionsPlugin(loaderOptionsConfig));
 
 export default Object.assign({
-  entry: './src/js/index.js',
+  entry: './src/js/action.constants.js',
   output: {
     path: path.resolve('./dist'),
     filename: 'index.js',

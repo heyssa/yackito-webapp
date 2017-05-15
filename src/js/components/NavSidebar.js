@@ -12,7 +12,7 @@ import Logo from 'grommet/components/icons/Grommet';
 import Anchor from 'grommet/components/Anchor';
 
 import SessionMenu from './SessionMenu';
-import { navActivate } from '../actions/nav';
+import { navActivate } from '../constants/nav';
 
 class NavSidebar extends Component {
 

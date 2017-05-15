@@ -11,9 +11,9 @@ import Paragraph from 'grommet/components/Paragraph';
 import Footer from 'grommet/components/Footer';
 import Logo from 'grommet/components/icons/Grommet';
 
-import { login } from '../actions/session';
-import { navEnable } from '../actions/nav';
-import { pageLoaded } from './utils';
+import { login } from './session.actions';
+import { navEnable } from '../../constants/nav';
+import { pageLoaded } from '../utils';
 
 class Login extends Component {
 

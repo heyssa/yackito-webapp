@@ -1,5 +1,5 @@
-import { TASKS_LOAD, TASKS_UNLOAD, TASK_LOAD, TASK_UNLOAD } from '../actions';
-import { createReducer } from './utils';
+import { TASKS_LOAD, TASKS_UNLOAD, TASK_LOAD, TASK_UNLOAD } from '../../constants/action.constants';
+import { createReducer } from '../../reducers/utils';
 
 const initialState = {
   tasks: [],

@@ -16,12 +16,12 @@ import Meter from 'grommet/components/Meter';
 import Spinning from 'grommet/components/icons/Spinning';
 import { getMessage } from 'grommet/utils/Intl';
 
-import NavControl from '../components/NavControl';
+import NavControl from '../../components/NavControl';
 import {
   loadDashboard, unloadDashboard
-} from '../actions/dashboard';
+} from './dashboard.actions';
 
-import { pageLoaded } from './utils';
+import { pageLoaded } from '../utils';
 
 class Dashboard extends Component {
 

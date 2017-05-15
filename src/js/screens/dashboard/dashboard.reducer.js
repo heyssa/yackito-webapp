@@ -1,5 +1,5 @@
-import { DASHBOARD_LOAD, DASHBOARD_UNLOAD } from '../actions';
-import { createReducer } from './utils';
+import { DASHBOARD_LOAD, DASHBOARD_UNLOAD } from '../../constants/action.constants';
+import { createReducer } from '../../reducers/utils';
 
 const initialState = {
   tasks: []

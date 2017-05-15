@@ -7,7 +7,7 @@ import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading';
 import UserIcon from 'grommet/components/icons/base/User';
 
-import { logout } from '../actions/session';
+import { logout } from '../screens/login/session.actions';
 
 class SessionMenu extends Component {
 
